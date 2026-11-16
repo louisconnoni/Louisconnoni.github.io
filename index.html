@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of Louis Connoni, a Villanova mechanical engineering student focused on thermal-fluid systems, HVAC, hardware, and phase-change applications."
+    />
+    <meta name="theme-color" content="#081a26" />
+    <title>Louis Connoni | Mechanical Engineering</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container nav-wrap">
+        <a class="wordmark" href="#top" aria-label="Louis Connoni home">
+          <span>LC</span>
+          <span class="wordmark-text">Louis Connoni</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Open navigation</span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Résumé</a>
+          <a class="nav-cta" href="https://www.linkedin.com/in/louis-connoni/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> Open to Summer 2027 internships</p>
+            <h1>Mechanical engineering focused on <em>thermal-fluid systems.</em></h1>
+            <p class="hero-lede">
+              I’m an Honors Mechanical Engineering student at Villanova focused on thermal systems, HVAC, and hardware.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="assets/Louis_Connoni_Resume.pdf" target="_blank">View résumé <span aria-hidden="true">↗</span></a>
+              <a class="button button-secondary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+
+          <div class="portrait-wrap reveal" data-delay="1">
+            <div class="portrait-frame">
+              <img src="assets/louis-connoni-senior-photo.jpg" alt="Louis Connoni standing by the water with a suspension bridge in the background" />
+            </div>
+            <div class="portrait-note">
+              <span class="note-icon" aria-hidden="true">⌁</span>
+              <span><strong>Current focus</strong>Thermal-fluid design and phase change</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-light">
+        <div class="container about-grid">
+          <div class="section-heading reveal">
+            <h2>Engineering interests</h2>
+          </div>
+          <div class="about-copy reveal" data-delay="1">
+            <p>
+              I’m pursuing an Honors B.S. in Mechanical Engineering with a Business minor at Villanova University. I’m especially interested in heat transfer, fluid dynamics, phase-change applications, and the hardware that turns a thermal model into a reliable system.
+            </p>
+            <div class="focus-list" aria-label="Engineering focus areas">
+              <span>Heat transfer</span><span>Fluid dynamics</span><span>HVAC</span><span>CFD</span><span>Thermal management</span><span>Hardware</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-dark">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <h2>Engineering experience</h2>
+            </div>
+          </div>
+
+          <div class="experience-list">
+            <article class="experience-card reveal">
+              <div class="experience-meta">
+                <p>May–Aug 2026</p>
+                <span>Norwood, MA</span>
+              </div>
+              <div class="experience-main">
+                <p class="role">Mechanical Engineering Intern</p>
+                <h3>Consulting Engineering Services</h3>
+                <ul>
+                  <li>Performed HVAC load calculations for buildings up to 40,000 sq. ft., applying heat-transfer and psychrometric principles.</li>
+                  <li>Designed HVAC layouts in Revit and validated ductwork, piping, and exhaust systems using airflow and static-pressure calculations.</li>
+                  <li>Developed 19 plumbing schedules and 7 water-heater standards to improve project documentation and coordination.</li>
+                </ul>
+              </div>
+              <span class="card-number" aria-hidden="true">01</span>
+            </article>
+
+            <article class="experience-card reveal" data-delay="1">
+              <div class="experience-meta">
+                <p>Aug 2025–Jun 2026</p>
+                <span>Villanova, PA</span>
+              </div>
+              <div class="experience-main">
+                <p class="role">Student Researcher</p>
+                <h3>Microsoft Research × Villanova ES2</h3>
+                <ul>
+                  <li>Built a Python and pandas web tool to evaluate data-center waste-heat recovery across thermal, water, carbon, economic, and social metrics.</li>
+                  <li>Created Matplotlib visualizations to compare economic and normalized rankings across three recovery methods.</li>
+                </ul>
+              </div>
+              <span class="card-number" aria-hidden="true">02</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-light">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <h2>Selected projects</h2>
+            </div>
+            <a class="text-link" href="https://github.com/louisconnoni" target="_blank" rel="noreferrer">All GitHub projects <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card reveal" href="https://github.com/louisconnoni/Variable-Liquid-Flow-Cold-Plate" target="_blank" rel="noreferrer">
+              <div class="project-body">
+                <p class="project-label">Thermal management · In progress</p>
+                <h3>Dynamic Flow Cold Plate</h3>
+                <p>Adaptive liquid cooling using CFD, MATLAB, sensors, and closed-loop flow control.</p>
+                <div class="tag-row"><span>SolidWorks</span><span>Ansys Fluent</span><span>MATLAB</span><span>Arduino</span></div>
+                <span class="project-link">View project <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
+
+            <a class="project-card reveal" data-delay="1" href="https://github.com/louisconnoni/Freedom/blob/main/README.md" target="_blank" rel="noreferrer">
+              <div class="project-body">
+                <p class="project-label">Combat robotics</p>
+                <h3>FREEDOM</h3>
+                <p>A 3 lb vertical-spinner robot designed for impact resistance, reliable operation, and a strict weight limit.</p>
+                <div class="tag-row"><span>CAD</span><span>Aluminum</span><span>TPU</span><span>Electronics</span></div>
+                <span class="project-link">View project <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section">
+        <div class="container skills-grid">
+          <div class="section-heading reveal">
+            <h2>Skills and leadership</h2>
+          </div>
+          <div class="skills-columns reveal" data-delay="1">
+            <div>
+              <h3>Engineering</h3>
+              <p>Heat transfer · Fluid dynamics · HVAC · Psychrometrics · CFD · Thermal modeling · Machine shop · Soldering · Laser cutting</p>
+            </div>
+            <div>
+              <h3>Tools</h3>
+              <p>SolidWorks · Ansys Fluent · MATLAB · Revit · AutoCAD · Python · Java · JavaScript · Arduino</p>
+            </div>
+            <div>
+              <h3>Leadership</h3>
+              <p>ASME Treasurer · Robotics Team Co-lead · RUIBAL Outreach Chair · Pre-Orientation Leader · Eagle Scout</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section resume-section">
+        <div class="container resume-grid">
+          <div class="resume-copy reveal">
+            <h2>Résumé and contact</h2>
+            <p>
+              Seeking Summer 2027 opportunities in mechanical engineering, hardware, thermal systems, and HVAC.
+            </p>
+            <div class="resume-actions">
+              <a class="button button-primary" href="assets/Louis_Connoni_Resume.pdf" target="_blank">Open résumé <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline-light" href="https://www.linkedin.com/in/louis-connoni/" target="_blank" rel="noreferrer">View LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="contact-links">
+              <a href="mailto:Louis.connoni@gmail.com">Louis.connoni@gmail.com</a>
+              <a href="https://github.com/louisconnoni" target="_blank" rel="noreferrer">github.com/louisconnoni</a>
+            </div>
+          </div>
+          <div class="resume-preview reveal" data-delay="1">
+            <div class="preview-toolbar"><span></span><span></span><span></span><p>Louis Connoni · Résumé</p></div>
+            <a class="resume-page-link" href="assets/Louis_Connoni_Resume.pdf" target="_blank" aria-label="Open Louis Connoni's résumé as a PDF">
+              <img src="assets/Louis_Connoni_Resume_Preview.png" alt="Preview of Louis Connoni's one-page résumé" />
+              <span>Open full PDF <span aria-hidden="true">↗</span></span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Louis Connoni <span>·</span> Mechanical Engineering</p>
+        <p>© <span data-year></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
